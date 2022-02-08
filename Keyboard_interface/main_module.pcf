@@ -1,0 +1,32 @@
+//! **************************************************************************
+// Written by: Map P.20131013 on Mon Dec 06 13:50:01 2021
+//! **************************************************************************
+
+SCHEMATIC START;
+COMP "data" LOCATE = SITE "P11" LEVEL 1;
+COMP "control<0>" LOCATE = SITE "F17" LEVEL 1;
+COMP "control<1>" LOCATE = SITE "H17" LEVEL 1;
+COMP "outdata<0>" LOCATE = SITE "J14" LEVEL 1;
+COMP "control<2>" LOCATE = SITE "C18" LEVEL 1;
+COMP "outdata<1>" LOCATE = SITE "J15" LEVEL 1;
+COMP "control<3>" LOCATE = SITE "F15" LEVEL 1;
+COMP "outdata<2>" LOCATE = SITE "K15" LEVEL 1;
+COMP "outdata<3>" LOCATE = SITE "K14" LEVEL 1;
+COMP "outdata<4>" LOCATE = SITE "E17" LEVEL 1;
+COMP "outdata<5>" LOCATE = SITE "P15" LEVEL 1;
+COMP "outdata<6>" LOCATE = SITE "F4" LEVEL 1;
+COMP "outdata<7>" LOCATE = SITE "R4" LEVEL 1;
+COMP "dataaa<0>" LOCATE = SITE "L18" LEVEL 1;
+COMP "dataaa<1>" LOCATE = SITE "F18" LEVEL 1;
+COMP "clock" LOCATE = SITE "R12" LEVEL 1;
+PIN clock_pin<0> = BEL "clock" PINNAME PAD;
+PIN "clock_pin<0>" CLOCK_DEDICATED_ROUTE = FALSE;
+COMP "dataaa<2>" LOCATE = SITE "D17" LEVEL 1;
+COMP "dataaa<3>" LOCATE = SITE "D16" LEVEL 1;
+COMP "dataaa<4>" LOCATE = SITE "G14" LEVEL 1;
+COMP "dataaa<5>" LOCATE = SITE "J17" LEVEL 1;
+COMP "dataaa<6>" LOCATE = SITE "H14" LEVEL 1;
+COMP "reset" LOCATE = SITE "H13" LEVEL 1;
+NET "clock_BUFGP/IBUFG" BEL "clock_BUFGP/BUFG.GCLKMUX" USELOCALCONNECT;
+SCHEMATIC END;
+

@@ -1,0 +1,66 @@
+#-----------------------------------------------------------
+# PlanAhead v14.7 (64-bit)
+# Build 321239 by xbuild on Fri Sep 27 19:29:51 MDT 2013
+# Start of session at: Mon Dec 06 12:48:47 2021
+# Process ID: 8728
+# Log file: C:/Users/psf/Desktop/Sem 7/Digital System Design/Lab/haswal-labs/Keyboard_interface/planAhead_run_2/planAhead.log
+# Journal file: C:/Users/psf/Desktop/Sem 7/Digital System Design/Lab/haswal-labs/Keyboard_interface/planAhead_run_2/planAhead.jou
+#-----------------------------------------------------------
+INFO: [Common 17-78] Attempting to get a license: PlanAhead
+INFO: [Common 17-290] Got license for PlanAhead
+INFO: [Device 21-36] Loading parts and site information from G:/Xilinx_14.7/14.7/ISE_DS/PlanAhead/data/parts/arch.xml
+Parsing RTL primitives file [G:/Xilinx_14.7/14.7/ISE_DS/PlanAhead/data/parts/xilinx/rtl/prims/rtl_prims.xml]
+Finished parsing RTL primitives file [G:/Xilinx_14.7/14.7/ISE_DS/PlanAhead/data/parts/xilinx/rtl/prims/rtl_prims.xml]
+start_gui
+source {C:/Users/psf/Desktop/Sem 7/Digital System Design/Lab/haswal-labs/Keyboard_interface/pa.fromHdl.tcl}
+# create_project -name Keyboard_interface -dir "C:/Users/psf/Desktop/Sem 7/Digital System Design/Lab/haswal-labs/Keyboard_interface/planAhead_run_2" -part xc3s500efg320-4
+# set_param project.pinAheadLayout yes
+# set srcset [get_property srcset [current_run -impl]]
+# set_property target_constrs_file "main_module.ucf" [current_fileset -constrset]
+Adding file 'C:/Users/psf/Desktop/Sem 7/Digital System Design/Lab/haswal-labs/Keyboard_interface/main_module.ucf' to fileset 'constrs_1'
+# set hdlfile [add_files [list {serial_data_in.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {Scancode_to_7segment.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {main_module.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set_property top main_module $srcset
+# add_files [list {main_module.ucf}] -fileset [get_property constrset [current_run]]
+# open_rtl_design -part xc3s500efg320-4
+Using Verific elaboration
+Parsing VHDL file "G:/Xilinx_14.7/14.7/ISE_DS/PlanAhead/data/parts/xilinx/rtl/lib/synplify/synattr.vhd" into library synplify
+Analyzing Verilog file "C:/Users/psf/Desktop/Sem 7/Digital System Design/Lab/haswal-labs/Keyboard_interface/serial_data_in.v" into library work
+Analyzing Verilog file "C:/Users/psf/Desktop/Sem 7/Digital System Design/Lab/haswal-labs/Keyboard_interface/Scancode_to_7segment.v" into library work
+Analyzing Verilog file "C:/Users/psf/Desktop/Sem 7/Digital System Design/Lab/haswal-labs/Keyboard_interface/main_module.v" into library work
+INFO: [Designutils 20-910] Reading macro library G:/Xilinx_14.7/14.7/ISE_DS/PlanAhead/data\./parts/xilinx/spartan3e/spartan3e/hd_int_macros.edn
+Parsing EDIF File [G:/Xilinx_14.7/14.7/ISE_DS/PlanAhead/data\./parts/xilinx/spartan3e/spartan3e/hd_int_macros.edn]
+Finished Parsing EDIF File [G:/Xilinx_14.7/14.7/ISE_DS/PlanAhead/data\./parts/xilinx/spartan3e/spartan3e/hd_int_macros.edn]
+Loading clock regions from G:/Xilinx_14.7/14.7/ISE_DS/PlanAhead/data\parts/xilinx/spartan3e/spartan3e/xc3s500e/ClockRegion.xml
+Loading clock buffers from G:/Xilinx_14.7/14.7/ISE_DS/PlanAhead/data\parts/xilinx/spartan3e/spartan3e/xc3s500e/ClockBuffers.xml
+Loading package from G:/Xilinx_14.7/14.7/ISE_DS/PlanAhead/data\parts/xilinx/spartan3e/spartan3e/xc3s500e/fg320/Package.xml
+Loading io standards from G:/Xilinx_14.7/14.7/ISE_DS/PlanAhead/data\./parts/xilinx/spartan3e/IOStandards.xml
+INFO: [Device 21-19] Loading pkg sso from G:/Xilinx_14.7/14.7/ISE_DS/PlanAhead/data\parts/xilinx/spartan3e/spartan3e/xc3s500e/fg320/SSORules.xml
+Loading list of drcs for the architecture : G:/Xilinx_14.7/14.7/ISE_DS/PlanAhead/data\./parts/xilinx/spartan3e/spartan3e/drc.xml
+INFO: [Timing 38-77] Reading timing library G:/Xilinx_14.7/14.7/ISE_DS/PlanAhead/data\parts/xilinx/spartan3e/spartan3e/spartan3e-4.lib.
+INFO: [Timing 38-34] Done reading timing library G:/Xilinx_14.7/14.7/ISE_DS/PlanAhead/data\parts/xilinx/spartan3e/spartan3e/spartan3e-4.lib.
+Parsing UCF File [C:/Users/psf/Desktop/Sem 7/Digital System Design/Lab/haswal-labs/Keyboard_interface/main_module.ucf]
+Finished Parsing UCF File [C:/Users/psf/Desktop/Sem 7/Digital System Design/Lab/haswal-labs/Keyboard_interface/main_module.ucf]
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Phase 0 | Netlist Checksum: 77124a16
+open_rtl_design: Time (s): elapsed = 00:00:09 . Memory (MB): peak = 781.465 ; gain = 121.391
+update_compile_order -fileset sim_1
+exit
+ERROR: [PlanAhead 12-106] *** Exception: ui.h.b: Found deleted key in HTclEventBroker. Verify if the classes listed here call cleanup()
+HTclEvent: DEBUG_PORT_CONFIG_CHANGE   Classes: ui.views.aR 
+HTclEvent: DEBUG_CORE_CONFIG_CHANGE   Classes: ui.views.aR 
+HTclEvent: SIGNAL_BUS_MODIFY   Classes: ui.views.aR 
+HTclEvent: SIGNAL_MODIFY   Classes: ui.views.aR 
+ (See C:/Users/psf/Desktop/Sem 7/Digital System Design/Lab/haswal-labs/Keyboard_interface\planAhead_pid8728.debug)
+ERROR: [Common 17-39] 'stop_gui' failed due to earlier errors.
+INFO: [Common 17-206] Exiting PlanAhead at Mon Dec 06 12:49:21 2021...
+INFO: [Common 17-83] Releasing license: PlanAhead

@@ -1,0 +1,25 @@
+NET "control[0]" LOC = F17;
+NET "control[1]" LOC = H17;
+NET "control[2]" LOC = C18;
+NET "control[3]" LOC = F15;
+NET "dataaa[0]" LOC = L18;
+NET "dataaa[1]" LOC = F18;
+NET "dataaa[2]" LOC = D17;
+NET "dataaa[3]" LOC = D16;
+NET "dataaa[4]" LOC = G14;
+NET "dataaa[5]" LOC = J17;
+NET "dataaa[6]" LOC = H14;
+
+NET "outdata[0]" LOC = J14;
+NET "outdata[1]" LOC = J15;
+NET "outdata[2]" LOC = K15;
+NET "outdata[3]" LOC = K14;
+NET "outdata[4]" LOC = E17;
+NET "outdata[5]" LOC = P15;
+NET "outdata[6]" LOC = F4;
+NET "outdata[7]" LOC = R4;
+
+NET "clock" LOC = R12;
+NET "data" LOC = P11;
+NET "reset" LOC = H13;
+NET "clock" CLOCK_DEDICATED_ROUTE = FALSE;

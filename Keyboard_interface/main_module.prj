@@ -1,0 +1,3 @@
+verilog work "serial_data_in.v"
+verilog work "Scancode_to_7segment.v"
+verilog work "main_module.v"

@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=C:\Users\psf\Desktop\Sem 7\Digital System Design\Lab\haswal-labs\Keyboard_interface\main_module.ncd
+OUTFILE=C:\Users\psf\Desktop\Sem 7\Digital System Design\Lab\haswal-labs\Keyboard_interface\main_module.bit
+FAMILY=Spartan3E
+PART=xc3s500e-4fg320
+WORKINGDIR=C:\Users\psf\Desktop\Sem 7\Digital System Design\Lab\haswal-labs\Keyboard_interface
+LICENSE=WebPack
+USER_INFO=__0_0_0

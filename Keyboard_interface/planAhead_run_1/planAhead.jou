@@ -1,0 +1,21 @@
+#-----------------------------------------------------------
+# PlanAhead v14.7 (64-bit)
+# Build 321239 by xbuild on Fri Sep 27 19:29:51 MDT 2013
+# Start of session at: Mon Dec 06 12:45:55 2021
+# Process ID: 13708
+# Log file: C:/Users/psf/Desktop/Sem 7/Digital System Design/Lab/haswal-labs/Keyboard_interface/planAhead_run_1/planAhead.log
+# Journal file: C:/Users/psf/Desktop/Sem 7/Digital System Design/Lab/haswal-labs/Keyboard_interface/planAhead_run_1/planAhead.jou
+#-----------------------------------------------------------
+start_gui
+source {C:/Users/psf/Desktop/Sem 7/Digital System Design/Lab/haswal-labs/Keyboard_interface/pa.fromHdl.tcl}
+update_compile_order -fileset sim_1
+startgroup
+set_property package_pin A5 [get_ports {dataaa[6]}]
+endgroup
+set_property is_loc_fixed false [get_ports [list  {dataaa[6]}]]
+save_constraints
+set_property package_pin "" [get_ports [list  {dataaa[5]}]]
+set_property is_loc_fixed true [get_ports [list  {dataaa[6]}]]
+set_property is_loc_fixed false [get_ports [list  {dataaa[6]}]]
+set_property is_loc_fixed true [get_ports [list  {dataaa[6]}]]
+save_constraints
